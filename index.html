@@ -4,67 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexBoxes</title>
-    <style>
-    .card-container{
-        height: 600px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center; 
-        flex-wrap: wrap;       
-    }
-
-    .card{
-        height: 460px;
-        width: 270px;
-        padding: 10px;
-        background-color: white;
-        border-radius: 10px;
-    }
-    .card-image{
-        height: 300px;
-        width: 265px;
-        border-radius: 10px;
-        border: 1px solid rgb(56, 54, 54);
-        position: relative;
-    }
-
-    .scard-image{
-        height: 100px;
-        width: 70px;
-        margin-left: 20px;
-        border-radius: 5px;
-        position: relative;
-        bottom:45px;
-   }
-   .about-movie{
-    position: relative;
-    bottom:105px;
-    margin-left: 110px;
-    display: flex;
-    flex-direction: column;
-   }
-
-   .about-container{
-    height: 60px;
-   }
-   .info-container{
-    display: flex;
-    justify-content: space-between;
-   }
-
-   
-
-</style>
+    <link rel="stylesheet" href="/style.css" />
 </head>
 <body style="background-color: rgb(175, 219, 219);">
 
     <div class="card-container">
 
+        <h1 style="text-align: center; background-color: beige;">FOR ROW</h1>
+
+    <div class="card-container1">
+
 
         <div class="card">
-            <img src="./animal.jpeg" alt="image poster" class="card-image"/>
+            <img src="./images/animal.jpeg" alt="image poster" class="card-image"/>
                 <div class="about-container" >
-                    <img src="./animal.jpeg" alt="image poster" class="scard-image"/>
+                    <img src="./images/animal.jpeg" alt="image poster" class="scard-image"/>
                       <div class="about-movie">
                          <b>Animal</b>  
                          <span>4.5/5</span>  
@@ -97,9 +51,9 @@
         </div>
 
         <div class="card">
-         <img src="./javan.jpeg" alt="image poster" class="card-image"/>
+         <img src="./images/javan.jpeg" alt="image poster" class="card-image"/>
          <div class="about-container" >
-            <img src="./javan.jpeg" alt="image poster" class="scard-image"/>
+            <img src="./images/javan.jpeg" alt="image poster" class="scard-image"/>
               <div class="about-movie">
                  <b>Javan</b>  
                  <span>4.3/5</span>  
@@ -133,9 +87,9 @@
         </div>
 
         <div class="card">
-            <img src="./fhf.jpeg" alt="image poster" class="card-image"/>
+            <img src="./images/fhf.jpeg" alt="image poster" class="card-image"/>
             <div class="about-container" >
-                <img src="./fhf.jpeg" alt="image poster" class="scard-image"/>
+                <img src="./images/fhf.jpeg" alt="image poster" class="scard-image"/>
                   <div class="about-movie">
                      <b>Phir Hera Pheri</b>  
                      <span>4.7/5</span>  
@@ -168,6 +122,360 @@
 
         </div>
     </div>
+
+
+    <h1 style="text-align: center; background-color: beige;">FOR ROW-REVERCE</h1>
+
+
+    <div class="card-container2">
+
+
+        <div class="card">
+            <img src="./images/animal.jpeg" alt="image poster" class="card-image"/>
+                <div class="about-container" >
+                    <img src="./images/animal.jpeg" alt="image poster" class="scard-image"/>
+                      <div class="about-movie">
+                         <b>Animal</b>  
+                         <span>4.5/5</span>  
+                      </div>
+                </div>  
+
+
+                
+                <div class="info-container"> 
+
+                    <div>
+                      <p>length</p>
+                      <b>02:57</b>
+                     </div>  
+                      <div>
+                        <p>Lang</p>
+                        <b>Hindi</b>
+                    </div>
+                    <div>
+                        <p>Rating</p>
+                        <b>4.5/5</b>  
+                    </div>
+                    <div>    
+                        <p>Review</p>
+                        <b>45+</b>
+                    </div>
+
+
+                </div>
+        </div>
+
+        <div class="card">
+         <img src="./images/javan.jpeg" alt="image poster" class="card-image"/>
+         <div class="about-container" >
+            <img src="./images/javan.jpeg" alt="image poster" class="scard-image"/>
+              <div class="about-movie">
+                 <b>Javan</b>  
+                 <span>4.3/5</span>  
+              </div>
+        </div>  
+
+
+        
+        <div class="info-container"> 
+
+            <div>
+              <p>length</p>
+              <b>02:27</b>
+             </div>  
+              <div>
+                <p>Lang</p>
+                <b>Hindi</b>
+            </div>
+            <div>
+                <p>Rating</p>
+                <b>4.3/5</b>  
+            </div>
+            <div>    
+                <p>Review</p>
+                <b>450+</b>
+            </div>
+
+
+        </div>
+
+        </div>
+
+        <div class="card">
+            <img src="./images/fhf.jpeg" alt="image poster" class="card-image"/>
+            <div class="about-container" >
+                <img src="./images/fhf.jpeg" alt="image poster" class="scard-image"/>
+                  <div class="about-movie">
+                     <b>Phir Hera Pheri</b>  
+                     <span>4.7/5</span>  
+                  </div>
+            </div>  
+
+
+            
+            <div class="info-container"> 
+
+                <div>
+                  <p>length</p>
+                  <b>02:48</b>
+                 </div>  
+                  <div>
+                    <p>Lang</p>
+                    <b>Hindi</b>
+                </div>
+                <div>
+                    <p>Rating</p>
+                    <b>4.7/5</b>  
+                </div>
+                <div>    
+                    <p>Review</p>
+                    <b>1004+</b>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    
+
+    <h1 style="text-align: center; background-color: beige;">FOR COLUMN</h1>
+
+
+
+    <div class="card-container3">
+
+
+        <div class="card">
+            <img src="./images/animal.jpeg" alt="image poster" class="card-image"/>
+                <div class="about-container" >
+                    <img src="./images/animal.jpeg" alt="image poster" class="scard-image"/>
+                      <div class="about-movie">
+                         <b>Animal</b>  
+                         <span>4.5/5</span>  
+                      </div>
+                </div>  
+
+
+                
+                <div class="info-container"> 
+
+                    <div>
+                      <p>length</p>
+                      <b>02:57</b>
+                     </div>  
+                      <div>
+                        <p>Lang</p>
+                        <b>Hindi</b>
+                    </div>
+                    <div>
+                        <p>Rating</p>
+                        <b>4.5/5</b>  
+                    </div>
+                    <div>    
+                        <p>Review</p>
+                        <b>45+</b>
+                    </div>
+
+
+                </div>
+        </div>
+
+        <div class="card">
+         <img src="./images/javan.jpeg" alt="image poster" class="card-image"/>
+         <div class="about-container" >
+            <img src="./images/javan.jpeg" alt="image poster" class="scard-image"/>
+              <div class="about-movie">
+                 <b>Javan</b>  
+                 <span>4.3/5</span>  
+              </div>
+        </div>  
+
+
+        
+        <div class="info-container"> 
+
+            <div>
+              <p>length</p>
+              <b>02:27</b>
+             </div>  
+              <div>
+                <p>Lang</p>
+                <b>Hindi</b>
+            </div>
+            <div>
+                <p>Rating</p>
+                <b>4.3/5</b>  
+            </div>
+            <div>    
+                <p>Review</p>
+                <b>450+</b>
+            </div>
+
+
+        </div>
+
+        </div>
+
+        <div class="card">
+            <img src="./images/fhf.jpeg" alt="image poster" class="card-image"/>
+            <div class="about-container" >
+                <img src="./images/fhf.jpeg" alt="image poster" class="scard-image"/>
+                  <div class="about-movie">
+                     <b>Phir Hera Pheri</b>  
+                     <span>4.7/5</span>  
+                  </div>
+            </div>  
+
+
+            
+            <div class="info-container"> 
+
+                <div>
+                  <p>length</p>
+                  <b>02:48</b>
+                 </div>  
+                  <div>
+                    <p>Lang</p>
+                    <b>Hindi</b>
+                </div>
+                <div>
+                    <p>Rating</p>
+                    <b>4.7/5</b>  
+                </div>
+                <div>    
+                    <p>Review</p>
+                    <b>1004+</b>
+                </div>
+
+
+            </div>
+
+        </div>
+    
+    </div>
+
+
+    <h1 style="text-align: center; background-color: beige; margin-top: 1100px;">FOR COLUMN-REVERCE</h1>
+
+
+      <div class="card-container4">
+
+
+        <div class="card">
+            <img src="./images/animal.jpeg" alt="image poster" class="card-image"/>
+                <div class="about-container" >
+                    <img src="./images/animal.jpeg" alt="image poster" class="scard-image"/>
+                      <div class="about-movie">
+                         <b>Animal</b>  
+                         <span>4.5/5</span>  
+                      </div>
+                </div>  
+
+
+                
+                <div class="info-container"> 
+
+                    <div>
+                      <p>length</p>
+                      <b>02:57</b>
+                     </div>  
+                      <div>
+                        <p>Lang</p>
+                        <b>Hindi</b>
+                    </div>
+                    <div>
+                        <p>Rating</p>
+                        <b>4.5/5</b>  
+                    </div>
+                    <div>    
+                        <p>Review</p>
+                        <b>45+</b>
+                    </div>
+
+
+                </div>
+        </div>
+
+        <div class="card">
+         <img src="./images/javan.jpeg" alt="image poster" class="card-image"/>
+         <div class="about-container" >
+            <img src="./images/javan.jpeg" alt="image poster" class="scard-image"/>
+              <div class="about-movie">
+                 <b>Javan</b>  
+                 <span>4.3/5</span>  
+              </div>
+        </div>  
+
+
+        
+        <div class="info-container"> 
+
+            <div>
+              <p>length</p>
+              <b>02:27</b>
+             </div>  
+              <div>
+                <p>Lang</p>
+                <b>Hindi</b>
+            </div>
+            <div>
+                <p>Rating</p>
+                <b>4.3/5</b>  
+            </div>
+            <div>    
+                <p>Review</p>
+                <b>450+</b>
+            </div>
+
+
+        </div>
+
+        </div>
+
+        <div class="card">
+            <img src="./images/fhf.jpeg" alt="image poster" class="card-image"/>
+            <div class="about-container" >
+                <img src="./images/fhf.jpeg" alt="image poster" class="scard-image"/>
+                  <div class="about-movie">
+                     <b>Phir Hera Pheri</b>  
+                     <span>4.7/5</span>  
+                  </div>
+            </div>  
+
+
+            
+            <div class="info-container"> 
+
+                <div>
+                  <p>length</p>
+                  <b>02:48</b>
+                 </div>  
+                  <div>
+                    <p>Lang</p>
+                    <b>Hindi</b>
+                </div>
+                <div>
+                    <p>Rating</p>
+                    <b>4.7/5</b>  
+                </div>
+                <div>    
+                    <p>Review</p>
+                    <b>1004+</b>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    
+</div>
+
+
+
     
 </body>
 </html>
